@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BindingTableViews/AppDelegate.m"
+            timestampString = "565905737.143907"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "-listBooks:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AppDelegate listBooks:]"
+                  moduleName = "BindingTableViews"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dznguyen/Development/AppleDevelopment/Ex_Files_Cocoa_EssT/Exercise%20Files/ch06/BindingTableViews_finished/BindingTableViews/AppDelegate.m"
+                  timestampString = "565905737.4994839"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AppDelegate listBooks:]"
+                  moduleName = "BindingTableViews"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dznguyen/Development/AppleDevelopment/Ex_Files_Cocoa_EssT/Exercise%20Files/ch06/BindingTableViews_finished/BindingTableViews/AppDelegate.m"
+                  timestampString = "565905737.503196"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "94">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
