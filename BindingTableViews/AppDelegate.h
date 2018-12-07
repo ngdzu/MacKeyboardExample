@@ -13,7 +13,7 @@
 
 @property (assign) IBOutlet NSWindow *window;
 
-@property (strong) NSMutableArray *allBooks;
+@property (strong) NSMutableArray *allKeyboards;
 
 - (IBAction)listBooks:(id)sender;
 

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FF405B421BB176A00DED80D /* caplocksUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 0FF405B221BB176A00DED80D /* caplocksUtils.c */; };
+		0FF405B621BB1A1E00DED80D /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF405B521BB1A1E00DED80D /* IOKit.framework */; };
+		0FF405B821BB1A2400DED80D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF405B721BB1A2400DED80D /* CoreFoundation.framework */; };
+		0FF405BB21BB1AAA00DED80D /* DarwinKeyboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FF405B921BB1AAA00DED80D /* DarwinKeyboard.cpp */; };
 		F46F852D157D378200925405 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46F852C157D378200925405 /* Cocoa.framework */; };
 		F46F8537157D378200925405 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F46F8535157D378200925405 /* InfoPlist.strings */; };
 		F46F8539157D378200925405 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F46F8538157D378200925405 /* main.m */; };
@@ -17,6 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FF405B221BB176A00DED80D /* caplocksUtils.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = caplocksUtils.c; sourceTree = "<group>"; };
+		0FF405B321BB176A00DED80D /* caplocksUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = caplocksUtils.h; sourceTree = "<group>"; };
+		0FF405B521BB1A1E00DED80D /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		0FF405B721BB1A2400DED80D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		0FF405B921BB1AAA00DED80D /* DarwinKeyboard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DarwinKeyboard.cpp; sourceTree = "<group>"; };
+		0FF405BA21BB1AAA00DED80D /* DarwinKeyboard.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DarwinKeyboard.hpp; sourceTree = "<group>"; };
 		F46F8528157D378200925405 /* BindingTableViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BindingTableViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F46F852C157D378200925405 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		F46F852F157D378200925405 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -39,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FF405B821BB1A2400DED80D /* CoreFoundation.framework in Frameworks */,
+				0FF405B621BB1A1E00DED80D /* IOKit.framework in Frameworks */,
 				F46F852D157D378200925405 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,6 +78,8 @@
 		F46F852B157D378200925405 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0FF405B721BB1A2400DED80D /* CoreFoundation.framework */,
+				0FF405B521BB1A1E00DED80D /* IOKit.framework */,
 				F46F852C157D378200925405 /* Cocoa.framework */,
 				F46F852E157D378200925405 /* Other Frameworks */,
 			);
@@ -91,6 +105,10 @@
 				F46F8533157D378200925405 /* Supporting Files */,
 				F46F8549157D379800925405 /* Book.h */,
 				F46F854A157D379800925405 /* Book.m */,
+				0FF405B221BB176A00DED80D /* caplocksUtils.c */,
+				0FF405B321BB176A00DED80D /* caplocksUtils.h */,
+				0FF405B921BB1AAA00DED80D /* DarwinKeyboard.cpp */,
+				0FF405BA21BB1AAA00DED80D /* DarwinKeyboard.hpp */,
 			);
 			path = BindingTableViews;
 			sourceTree = "<group>";
@@ -171,7 +189,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FF405BB21BB1AAA00DED80D /* DarwinKeyboard.cpp in Sources */,
 				F46F8539157D378200925405 /* main.m in Sources */,
+				0FF405B421BB176A00DED80D /* caplocksUtils.c in Sources */,
 				F46F8540157D378200925405 /* AppDelegate.m in Sources */,
 				F46F854B157D379800925405 /* Book.m in Sources */,
 			);
@@ -299,6 +319,7 @@
 				F46F8548157D378200925405 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

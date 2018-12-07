@@ -800,7 +800,7 @@
         <customObject id="420" customClass="NSFontManager"/>
         <arrayController objectClassName="Book" id="708">
             <connections>
-                <binding destination="494" name="contentArray" keyPath="self.allBooks" id="712"/>
+                <binding destination="494" name="contentArray" keyPath="self.allKeyboards" id="giY-PG-ZcS"/>
             </connections>
         </arrayController>
         <userDefaultsController representsSharedInstance="YES" id="709"/>
